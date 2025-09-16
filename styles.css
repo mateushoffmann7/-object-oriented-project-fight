@@ -1,10 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #ebd6ba;
+}
+
+.char,
+.monster {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .fightarea {
   display: flex;
   justify-content: space-around;
 }
 
 .lifebar {
-  margin: 5px 0;
+  margin: 50px 0 0 0;
   height: 10px;
   border-radius: 5px;
   border: solid 1px gray;
@@ -13,17 +31,25 @@
 
 .bar {
   height: 10px;
-  background-color: red;
+  background-color: rgb(250, 86, 86);
   border-radius: 5px;
   width: 10%;
 }
 
 .log {
   border: 1px dotted gray;
-  height: 200px;
+  height: 500px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .attackButton {
-  margin: 5px 0;
+  margin: 0 0 20px 0;
+  padding: 5px 50px;
+  border: 1px gray solid;
+  background-color: #ebd01f;
+  cursor: pointer;
+  border-radius: 5px;
 }

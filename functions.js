@@ -104,7 +104,7 @@ const stage = {
 
     if (actualAttack > actualDefense) {
       attacked.life -= actualAttack;
-      attacked.lige = attacked.life < 0 ? 0 : attacked.life;
+      attacked.life = attacked.life < 0 ? 0 : attacked.life;
       log.addMessage(
         `${attacking.name} causou ${actualAttack.toFixed(2)} de dano em ${
           attacked.name
