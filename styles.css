@@ -1,0 +1,29 @@
+.fightarea {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lifebar {
+  margin: 5px 0;
+  height: 10px;
+  border-radius: 5px;
+  border: solid 1px gray;
+  width: 150px;
+}
+
+.bar {
+  height: 10px;
+  background-color: red;
+  border-radius: 5px;
+  width: 10%;
+}
+
+.log {
+  border: 1px dotted gray;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.attackButton {
+  margin: 5px 0;
+}
